@@ -21,6 +21,7 @@ void nhap()
             degree[x]++;
             cout << degree[x] << endl;
             degree[y]++;
+            cout << degree[y] << endl;
         }
     }
     else
@@ -29,8 +30,8 @@ void nhap()
         for (int i = 0; i < m; i++)
         {
             int x, y;
-            cin >> x >> y; 
-            cout << x << " " << y << endl; 
+            cin >> x >> y;
+            cout << x << " " << y << endl;
             adj[x].insert(y);
             adj[y].insert(x);
             degree[x]++;
