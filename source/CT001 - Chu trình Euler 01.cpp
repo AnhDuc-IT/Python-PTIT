@@ -28,7 +28,8 @@ void nhap()
         for (int i = 0; i < m; i++)
         {
             int x, y;
-            cin >> x >> y;
+            cin >> x >> y; 
+            cout << x << " " << y << endl; 
             adj[x].insert(y);
             adj[y].insert(x);
             degree[x]++;
