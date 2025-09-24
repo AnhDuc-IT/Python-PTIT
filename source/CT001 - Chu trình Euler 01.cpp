@@ -89,6 +89,7 @@ void Euler(int s)
     while (!st.empty())
     {
         auto x = st.top();
+        cout << x << endl;
         if (adj[x].size())
         {
             int y = *adj[x].begin();
