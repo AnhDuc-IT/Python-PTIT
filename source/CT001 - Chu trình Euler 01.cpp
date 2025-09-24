@@ -19,6 +19,7 @@ void nhap()
             adj[x].insert(y);
             adj[y].insert(x);
             degree[x]++;
+            cout << degree[x] << endl;
             degree[y]++;
         }
     }
