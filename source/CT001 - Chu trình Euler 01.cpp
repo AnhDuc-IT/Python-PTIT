@@ -12,6 +12,7 @@ void nhap()
     if (t == 1)
     {
         cin >> n >> m;
+        cout << n << m << endl;
         for (int i = 0; i < m; i++)
         {
             int x, y;
