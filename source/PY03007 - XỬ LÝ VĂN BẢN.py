@@ -34,3 +34,4 @@ if __name__ == "__main__":
                 print(convert(x), end = " ")
                 check = False
 
+# derivative: dẫn xuất, phát sinh
