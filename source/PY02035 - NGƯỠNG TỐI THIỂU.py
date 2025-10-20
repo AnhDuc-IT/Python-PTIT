@@ -10,7 +10,7 @@ res = Counter(arr)
 res = sorted(res.items())
 check = True
 for x, y in res:
-    if y >= 2:
+    if y >= k:
         print(x, y)
         check = False
 if check:

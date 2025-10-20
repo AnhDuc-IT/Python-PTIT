@@ -1,4 +1,4 @@
-file = open("source/CONTACT.in", "r")
+file = open("CONTACT.in", "r")
 arr = file.read().split()
 res = set()
 for x in arr:

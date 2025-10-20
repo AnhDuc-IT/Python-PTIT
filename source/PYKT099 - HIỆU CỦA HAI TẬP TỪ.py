@@ -5,8 +5,8 @@ def convert(s):
     return res
     return s
 if __name__ == "__main__":
-    file1 = open("source/DATA1.in", "r")
-    file2 = open("source/DATA2.in", "r")
+    file1 = open("DATA1.in", "r")
+    file2 = open("DATA2.in", "r")
     a = list(file1.read().split())
     b = list(file2.read().split())
     for i in range(len(a)):

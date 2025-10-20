@@ -1,7 +1,7 @@
 
 def check(s):
     return s == s[::-1]
-file = open("source/VANBAN.in", "r")
+file = open("VANBAN.in", "r")
 mp = dict()
 ans = -float("infinity")
 arr = []
